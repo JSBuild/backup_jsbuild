@@ -1,10 +1,24 @@
-# Particle CLI
-particle command line tool
+#![JSBuild Logo](assets/logo75x75.png) JSBuild
+JSBuild command line tool
 
-### Build
+### Pre-requisites
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org)
+- [Yarn](https://yarnpkg.com)
+
+### Installation
 ```
-# Install yarn from [https://yarnpkg.com](https://yarnpkg.com)
+$ git clone git@github.com:JSBuild/jsbuild.git
+$ cd jsbuild
 $ yarn install
-$ npm build
 ```
 
+### Development  
+*Start in debug mode*   
+```
+$ npm run dev 
+```
+*Create production build*  
+```
+$ npm run build
+```

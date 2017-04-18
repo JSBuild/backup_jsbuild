@@ -1,21 +1,19 @@
 {
-  "name": "part",
+  "name": "jsbuild",
   "version": "1.0.0",
   "description": "Particle CLI",
   "main": "main.js",
+  "repository": "git@github.com:JSBuild/jsbuild.git",
   "bin": {
     "part": "./bin/part-cli.js"
   },
   "scripts": {
-    "pack": "build --dir",
-    "blin": "build --lin",
-    "bmac": "build --mac",
-    "bwin": "build --win",
+    "build": "electron-packager ./ --platform=darwin,win32 --arch=x64 --prune --overwrite",
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jamey McElveen <jamey@mcelveen.us>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
@@ -34,6 +32,6 @@
   },
   "devDependencies": {
     "electron": "^1.6.2",
-    "electron-builder": "^17.0.1"
+    "electron-packager": "^8.6.0"
   }
 }
