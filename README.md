@@ -1,4 +1,5 @@
-#![JSBuild Logo](assets/logo75x75.png) JSBuild
+![JSBuild Logo](assets/logo75x75.png)
+#JSBuild   
 JSBuild command line tool
 
 ### Pre-requisites
